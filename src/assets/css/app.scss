@@ -1,3 +1,7 @@
 //app wide styles in sass compiled to app.css separate file with webpack
 //styles written in components takes precedence
 //for CSS properties using url(...)  do it HERE as this webpack configuration doesn't bundle assets imported that way
+
+h1 {
+    color:red;
+}
